@@ -12,10 +12,10 @@ This script allows users to toggle between enabling or disabling the second disp
 ### Usage
 
 ```bash
-./<script_name> <on|off>
+./display_vidia <on|off>
 ```
 
-- Replace `<script_name>` with the name of the script file.
+- Replace `display_vidia` with the name of the script file.
 - Pass `on` to enable the second display, or `off` to disable it.
 
 ### Features
@@ -56,7 +56,7 @@ This script allows users to toggle between enabling or disabling the second disp
 
 #### Enable Second Display:
 ```bash
-sudo ./display_toggle.sh on
+sudo ./display_vidia.sh on
 ```
 Output:
 ```
@@ -66,7 +66,7 @@ Done!, Please reboot your system
 
 #### Disable Second Display:
 ```bash
-sudo ./display_toggle.sh off
+sudo ./display_vidia.sh off
 ```
 Output:
 ```
