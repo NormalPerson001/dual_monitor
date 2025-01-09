@@ -1,15 +1,12 @@
 #!/bin/bash
 
-# Check if an argument is passed
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <on|off>"
     exit 1
 fi
 
-# Get the first argument
 arg=$1
 
-# Check the value of the argument
 if [ "$arg" == "on" ]; then
 
 echo "Turning on the second display display NOTE: This will turn on the second display when rebooted"
